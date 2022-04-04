@@ -28,6 +28,14 @@ function filterData() {
 				garments : result.data.garments
 			})
 		});
+
+		axios
+		.get(`/api/garments`)
+		.then(function(result) {
+			searchResultsElem.innerHTML = garmentsTemplate({
+				garments : result.data.garments
+			})
+		});
 }
 
 priceRangeElem.addEventListener('change', function(evt){

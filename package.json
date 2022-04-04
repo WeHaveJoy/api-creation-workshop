@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeHaveJoy/api-creation-workshop.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/WeHaveJoy/api-creation-workshop/issues"
+  },
+  "homepage": "https://github.com/WeHaveJoy/api-creation-workshop#readme"
 }
