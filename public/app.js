@@ -49,9 +49,6 @@ priceRangeElem.addEventListener('change', function(evt){
 			})
 		});
 
-
-
-// 
 const domFields = {
 	description,
 	image,
