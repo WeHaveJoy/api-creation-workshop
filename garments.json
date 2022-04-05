@@ -208,5 +208,13 @@
 		"price": "79.99",
 		"gender": "Male",
 		"season": "Summer"
+	},
+
+	{
+		"description": "Rainbow unicorn sweater",
+		"price": "799.00",
+		"img" : "placeholder.png",
+		"gender" : "Unisex",
+		"season" : "All season"
 	}
 ]
