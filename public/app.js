@@ -68,5 +68,4 @@ const domFields = {
   
 })
 
-
 filterData();
