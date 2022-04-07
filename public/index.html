@@ -76,7 +76,7 @@
 			</div>
 		</div>
  
-		<div class="message" >
+		<div class="message hidden" >
 
 		</div>
 
@@ -86,11 +86,10 @@
 				<a href="">Add garmet</a>
 			</div>
 
-			<div class="add garment ">
+			<div class="add garment hidden">
 				<h2>Add garment</h2>
 				<img src="/images/{{img}}" alt="">
-
-				<form action="/api/garments/" method="post" class="addGarmentForm" > 
+				 <form action="/api/garments/" method="post" class="addGarmentForm" > 
 					
 					<div class="field" >
 						<label for="">Description</label>
@@ -117,10 +116,10 @@
 						</div>
 					</div>
 					<div class="mt1">
-						<input type="submit" name="action" value="Add" class="addGarmentBtn"  >
-						<input type="submit" name="action" value="Hide" class="hideAddGarmetBtn" >
+						<input type="button" name="action" value="Add" class="addGarmentBtn"  >
+						<input type="button" name="action" value="Hide" class="hideAddGarmetBtn" >
 					</div>
-			 </form>
+				 </form> 
 			</div>
 
 		</div>
@@ -135,6 +134,6 @@
 	</div>
 	<script src="app.js"></script>
 	<script src="field-manager.js"></script>
-	<script src="add-garment.js"></script>
+	<script src="add-garments.js"></script>
 </body>
 </html>
